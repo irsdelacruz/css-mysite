@@ -1,0 +1,173 @@
+body{
+    margin: 0px;
+    color: #40514E;
+    text-align: center;
+    /* font-size: 2rem; */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    /* check web safe fonts for proper rendering across browsers/devices */
+    /* fonts.google.com */
+    /* images: flat icon.com */
+}
+
+a{
+    color: #11999E;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    margin: 10px 20px;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+a:hover{
+    color: #EAF6F6
+}
+
+h1{
+    font-size: 4rem; /* 64px */
+    /* font-sizing depends on what you need/prefer on choosing between statically or dynamically sized fonts */
+    /* font-size: 100%; 100% = 16px */
+    /* 1em = 16px = 100% */
+    /* rem = root EM means absolute EM size vs just em where it inherits upstream size changes */
+    margin: 50px auto 0 auto; /* top right bottom left */
+    color: #66BFBF;
+    /* line-height: 2; */
+}
+
+
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    /* margin-top: ; */
+    color: #66BFBF;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3{
+    color: #11999E;
+    font-weight: normal;
+    /* font-size: 1.5rem; */
+}
+
+hr{
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+p{
+    line-height: 2;
+}
+
+/* .ice{
+    text-decoration: underline;
+} */
+
+
+/* find colors via colorhunt.co */
+/* palette: 053742, 39A2DB, A2DBFA, E8F0F2 */
+/* CLASS STYLIING */
+.top-container{
+    background-color: #053742;
+    /* margin: 20px; */
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container{
+    margin: 50px 0;
+    /* background-color: #39A2DB; */
+}
+
+.bottom-container{
+    background-color: #A2DBFA;
+    padding: 10px 0 0;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+
+.chillies-img{
+    width: 25%;
+    /* height: 25%; */
+    float: right;
+    margin-left: 30px;
+}
+
+.comp-img{
+    width: 25%;
+    /* height: 25%; */
+    float: left;
+    margin-right: 30px;
+}
+
+.contact-message{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.copyright{
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 10px 0 0;
+    margin: 0;
+}
+
+.dp{
+    /* border-image-slice: 50%; */
+    border-radius: 100%;
+    height: 150px;
+    width: 150px;
+    /* background-color: transparent; */
+}
+
+.intro{
+    width: 30%;
+    margin: auto;
+}
+
+.skill-row{
+    margin: 10px auto 100px auto;
+    width: 50%;
+    display: inline-block;
+    text-align: left;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
